@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleSignUp.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <form action="ChooseHTML_or_CSS.html" method="get" class="SignUp-form">
+
+    <h1 id="text"> Sign Up </h1>
+    <p id="text"> Please fill in this form to create an account. </p>
+
+    <div class="SignUpCredentials">
+      <input type="text" name="username" id="username" placeholder="Username" required>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+      <input type="password" name="password" id="password" placeholder="Password" required>
+      <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password" required>
+    </div>
+
+    <p id="TermsAndPrivacy">
+      By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+    </p>
+    <input type="submit" value="Create my account" id="CreateAccountButton">
+
+    <div class="SignUpWithOtherSocials">
+      <h3 id="text"> Or Sign Up with other socials : </h3>
+      <a href="https://github.com/login" target="_blank">
+        <img src="SignInWithGitHub.png" id="SignUpWithGitHub" alt="SignUpWithGitHub">
+      </a>
+      <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+        target="_blank">
+        <img src="SignInWithGoogle.png" id="SignUpWithGoogle" alt="SignUpWithGoogle">
+      </a>
+    </div>
+
+    <div class="AlreadyHasAnAccount">
+      <p id="text"> You already have an account ?
+        <a href="SignIn.html" style="color:dodgerblue">Sign in. </a>.
+      </p>
+    </div>
+
+  </form>
+</body>
+</html>

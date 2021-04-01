@@ -1,0 +1,79 @@
+
+body, html {   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+
+body {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.SignIn-form {
+    display:table;/* shrinks to fit content */
+    width: 60vw;
+    height: 75vh;
+    margin:auto;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+
+.SignInCredentials {
+    display: table;
+    margin : auto;
+    width: 50vw;
+    height: 7vh;
+}
+
+#usernameOrEmail, #password{
+    display:block;
+    margin-top : 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    height: 7vh;
+    padding: 2px;
+}
+
+#SignInButton{
+    
+    display:block;
+    margin-top : 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    height: 7vh;
+}
+
+#text{
+    display : table;
+    margin-top : 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.SignInWithOtherSocials{
+    display:table;
+    margin : auto;
+    width: 50vw;
+    height: 7vh;
+    padding: 5px;
+}
+
+#SignInWithGitHub, #SignInWithGoogle{
+    display:table;
+    margin : auto;
+    width: 30vw;
+    height: 7vh;
+    padding: 2px;
+}
+
+.DoesntHaveAnAccount{
+    display:table;
+    margin : auto;
+}
