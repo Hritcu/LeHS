@@ -11,28 +11,30 @@
 <body>
   <form action="ChooseHTML_or_CSS.html" method="get" class="SignIn-form">
     
-    <h1 id="text">Sign In</h1>
-    
+    <h1 class="text" id="title">Sign In</h1>
+    <p class="text"> So glad to have you back! &#128522;</p>
+    <p class = "text"> Please fill in this form to log back into your account. </p>
+
     <div class="SignInCredentials">
       <input type="text" name="usernameOrEmail" id="usernameOrEmail" placeholder="Username or Email" required>
       <input type="password" name="password" id="password" placeholder="Password" required>
     </div>
     <input type="submit" value="Sign In" id="SignInButton">
 
+    <h3 class="text" id="OrSignInWithOtherSocials"> Or Sign In with other socials : </h3>
+   
     <div class="SignInWithOtherSocials">
-      <h3 id="text"> Or Sign In with other socials : </h3>
       <a href="https://github.com/login" target="_blank">
-        <img src="SignInWithGitHub.png" id="SignInWithGitHub" alt="SignInWithGitHub">
+        <img src="SignUpWithGitHub.png" id="SignInWithGitHub" alt="SignInWithGitHub">
       </a>
       <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
-        <img src="SignInWithGoogle.png" id="SignInWithGoogle" alt="SignInWithGoogle">
+        <img src="SignUpWithGoogle.jpg" id="SignInWithGoogle" alt="SignInWithGoogle">
       </a>
     </div>
 
     <div class="DoesntHaveAnAccount">
-      <p id="text"> New to our website ?
-        <a href="SignUp.html" style="color:dodgerblue">Create an account. </a>.
-      </p>
+      <p class="text"> Don't have an account ?</p>
+      <a class="text" id= "SignUp" href="SignUp.html" style="color:rgb(219, 192, 166)">SIGN UP </a>
     </div>
 
   </form>
