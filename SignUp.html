@@ -12,8 +12,8 @@
 <body>
   <form action="ChooseHTML_or_CSS.html" method="get" class="SignUp-form">
 
-    <h1 id="text"> Sign Up </h1>
-    <p id="text"> Please fill in this form to create an account. </p>
+    <h1 class= "text" id="title"> WELCOME </h1>
+    <p class="text"> Please fill in this form to create an account. </p>
 
     <div class="SignUpCredentials">
       <input type="text" name="username" id="username" placeholder="Username" required>
@@ -22,26 +22,26 @@
       <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password" required>
     </div>
 
-    <p id="TermsAndPrivacy">
-      By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+    <p class="text" id="TermsAndPrivacy">
+      By creating an account you agree to our <a href="#" style="color:rgb(219, 192, 166)">Terms & Privacy</a>.
     </p>
     <input type="submit" value="Create my account" id="CreateAccountButton">
 
+    <h3 class="text" id="OrSignUpWithOtherSocials"> Or Sign Up with other socials : </h3>
+
     <div class="SignUpWithOtherSocials">
-      <h3 id="text"> Or Sign Up with other socials : </h3>
       <a href="https://github.com/login" target="_blank">
-        <img src="SignInWithGitHub.png" id="SignUpWithGitHub" alt="SignUpWithGitHub">
+        <img src="SignUpWithGitHub.png" id="SignUpWithGitHub" alt="SignUpWithGitHub">
       </a>
       <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
         target="_blank">
-        <img src="SignInWithGoogle.png" id="SignUpWithGoogle" alt="SignUpWithGoogle">
+        <img src="SignUpWithGoogle.jpg" id="SignUpWithGoogle" alt="SignUpWithGoogle">
       </a>
     </div>
 
     <div class="AlreadyHasAnAccount">
-      <p id="text"> You already have an account ?
-        <a href="SignIn.html" style="color:dodgerblue">Sign in. </a>.
-      </p>
+      <p class="text"> Already have an account ?</p>
+      <a class="text" id= "SignIn" href="SignIn.html" style="color:rgb(219, 192, 166)">SIGN IN </a>
     </div>
 
   </form>
