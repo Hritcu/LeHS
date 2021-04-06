@@ -5,86 +5,66 @@
     <meta property="og:type"          content="website">
     <meta property="og:title"         content="Learn CSS">
     <meta property="og:description"   content="A game for learning CSS">
+    <link rel="stylesheet" href="pagina.css">
   </head>
   <body>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
     <section id="sidebar">
       <div class="header">
         <div>
           <h1 class="title">Learn CSS</h1>
         </div>
         <div id="level-counter">
-          <span class="arrow left">
-            <span class="triangle"></span>
-          </span>
-          <span id="level-indicator">
-            <span id="labelLevel" >Level</span>
-            <span class="current">1</span>
-            <span id="labelOf" >of</span>
-            <span class="total">7</span>
-            <span class="caret">▾</span>
-          </span>
-          <span class="arrow right">
-            <span class="triangle"></span>
-          </span>
-          <div id="levelsWrapper" class="tooltip">
-            <div id="levels"></div>
-            <div id="labelReset" >Reset</div>
-          </div>
+          <class="previous">
+            <a href="#" class="previous">&laquo;</a>
+          <div class="level-indicator">Level 1 of 7</div>
+          <class="next">
+            <a href="#" class="next"> &raquo;</a>
         </div>
       </div>
       <p id="instructions">Bine ai venit la Learn CSS, un joc unde scrii cod CSS!....descriere joc</p>
       <div id="editor">
         <div id="css">
-          <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
           <pre id="before"></pre>
           <textarea id="code" autofocus autocapitalize="none"></textarea>
           <pre id="after"></pre>
         </div>
         <button id="next" >Next</button>
       </div>
+      <section>
+        <h4 id="labelDifficulty" >Difficulty</h4>
+      <form id="difficulty">
+        <div>
+          <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
+          <label id="labelDifficultyEasy" for="difficultyEasy" >Beginner</label>
+        </div>
+        <div>
+          <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
+          <label id="labelDifficultyMedium" for="difficultyMedium" >Intermediate</label>
+        </div>
+        <div>
+          <input type="radio" name="difficulty" id="difficultyHard" value="hard">
+          <label id="labelDifficultyHard" for="difficultyHard" >Expert</label>
+        </div>
+      </form>
+      </section>
       <div id="share">
-        <a class="learn html" href="...">
-          <div>
-            <button>Learn HTML</button>
-          </div>
-        </a>
-        <a class="Home" href="...">
+        <a class="Home" href="ChooseHTML_or_CSS.html">
           <div>
             <button>Home</button>
           </div>
         </a>
-      </div>
-
-      <div class="bsa-custom"></div>
-
-      <div class="credits">
         <a href="....">GitHub</a> •
         <span id="settings">
           <span id="labelSettings" >Settings</span>
-          <span class="tooltip">
-            <section>
-              <h4 id="labelDifficulty" >Difficulty</h4>
-              <form id="difficulty">
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
-                  <label id="labelDifficultyEasy" for="difficultyEasy" >Beginner</label>
-                </div>
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
-                  <label id="labelDifficultyMedium" for="difficultyMedium" >Intermediate</label>
-                </div>
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyHard" value="hard">
-                  <label id="labelDifficultyHard" for="difficultyHard" >Expert</label>
-                </div>
-              </form>
-            </section>
-          </span>
         </span>
+        </div>
+        <div id="learnhtml">
+        <div id="learnHTML" >Want to learn HTML? Play <a href="htmlex.html">Learn HTML</a>.
+        </div>
       </div>
-      <div class="credits">
-        <span id="learnHTML" >Want to learn HTML? Play</span> <a href="...">Learn HTML</a>.
-      </div>
-    </section>
   </body>
 </html>

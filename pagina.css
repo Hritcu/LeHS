@@ -1,0 +1,99 @@
+body, html {   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+    background-color:#DADED4;
+    
+}
+#top, #bottom, #left, #right {
+	background: white;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+body{
+    background: linear-gradient(white, white) no-repeat center/10px 100%;
+}
+.title{
+    color: #3C403D;
+    margin-top : 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: auto;
+    padding: 5px;
+    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 10px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  margin-left: 25px;
+  background-color: #f1f1f1;
+  color: black;
+}
+.next {
+    background-color: #f1f1f1;
+    color: black;
+  }
+.level-indicator{
+    color: #3C403D;
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 6px 10px;
+}
+#instructions{
+    color: #3C403D;
+    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    margin-left: 25px;
+    margin-right: auto;
+}
+#editor{
+    margin-left: 25px;
+}
+#labelDifficulty{
+    margin-left: 25px;
+    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+}
+#difficulty{
+    margin-left: 25px;
+    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+}
+#share{
+    margin-left: 60px;
+    display: inline-block;
+}
+#learnHTML
+{
+    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    margin-left: 40px;
+}
+#learnhtml
+    {
+    display: flex;
+    align-items:flex-end;
+    }
+}
