@@ -1,75 +1,78 @@
 <!doctype html>
 <html>
-  <head> 
+
+<head>
     <title>Learn CSS - A game for learning CSS</title>
-    <meta property="og:type"          content="website">
-    <meta property="og:title"         content="Learn CSS">
-    <meta property="og:description"   content="A game for learning CSS">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Learn CSS">
+    <meta property="og:description" content="A game for learning CSS">
     <link rel="stylesheet" href="pagina.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="left"></div>
     <div id="right"></div>
     <div id="top"></div>
     <div id="bottom"></div>
     <div class="split left">
-      <div class="centered"> 
-    <section id="sidebar">
-      <div class="header">
-        <div>
-          <h1 class="title">Learn CSS</h1>
-        </div>
-        <div id="level-counter">
-          <class="previous">
-            <a href="#" class="previous">&laquo;</a>
-          <div class="level-indicator">Level 1 of 7</div>
-          <class="next">
-            <a href="#" class="next"> &raquo;</a>
-        </div>
-      </div>
-      <p id="instructions">Bine ai venit la Learn CSS, un joc unde scrii cod CSS!....descriere joc</p>
-      <div id="editor">
-        <div id="css">
-          <pre id="before"></pre>
-          <textarea id="code" autofocus autocapitalize="none"></textarea>
-          <pre id="after"></pre>
-        </div>
-        <button id="next" >Next</button>
-      </div>
-      <section>
-        <h4 id="labelDifficulty" >Difficulty</h4>
-      <form id="difficulty">
-        <div>
-          <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
-          <label id="labelDifficultyEasy" for="difficultyEasy" >Beginner</label>
-        </div>
-        <div>
-          <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
-          <label id="labelDifficultyMedium" for="difficultyMedium" >Intermediate</label>
-        </div>
-        <div>
-          <input type="radio" name="difficulty" id="difficultyHard" value="hard">
-          <label id="labelDifficultyHard" for="difficultyHard" >Expert</label>
-        </div>
-      </form>
-      </section>
-      <div class="share">
-        •
-        <a href="ChooseHTML_or_CSS.html" class="active">Home</a>•
-        <a href="....">GitHub</a> •
-        <span id="settings">
+        <div class="centered">
+            <section id="sidebar">
+                <div class="header">
+                    <div>
+                        <h1 class="title">Learn CSS</h1>
+                    </div>
+                    <div id="level-counter">
+                        <class="previous">
+                            <a href="#" id="previous" class="btn btn-5">&laquo;</a>
+                            <div class="level-indicator">Level 1 of 7</div>
+                            <class="next">
+                                <a href="#" id="nextlevel" class="btn btn-5"> &raquo;</a>
+                    </div>
+                </div>
+                <p id="instructions">Bine ai venit la Learn CSS, un joc unde scrii cod CSS!....descriere joc</p>
+                <div id="editor">
+                    <div id="css">
+                        <pre id="before"></pre>
+                        <textarea id="code" autofocus autocapitalize="none"></textarea>
+                        <pre id="after"></pre>
+                    </div>
+                    <button id="next" class="btn btn-5">Next</button>
+                </div>
+                <section>
+                    <h4 id="labelDifficulty">Difficulty</h4>
+                    <form id="difficulty">
+                        <div>
+                            <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
+                            <label id="labelDifficultyEasy" for="difficultyEasy">Beginner</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
+                            <label id="labelDifficultyMedium" for="difficultyMedium">Intermediate</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="difficulty" id="difficultyHard" value="hard">
+                            <label id="labelDifficultyHard" for="difficultyHard">Expert</label>
+                        </div>
+                    </form>
+                </section>
+                <div class="share">
+                    •
+                    <a href="ChooseHTML_or_CSS.html" id="active">Home</a>•
+                    <a href="....">GitHub</a> •
+                    <span id="settings">
           <span id="labelSettings" >Settings</span>
-        </span>
+                    </span>
+                </div>
+                <div id="learnhtml">
+                    <div id="learnHTML">Want to learn HTML? Play <a href="htmlex.html">Learn HTML</a>.
+                    </div>
+                </div>
         </div>
-        <div id="learnhtml">
-        <div id="learnHTML" >Want to learn HTML? Play <a href="htmlex.html">Learn HTML</a>.
-        </div>
-      </div>
     </div>
-  </div>
-      <div class="split right">
+    <div class="split right">
         <div class="centered">
         </div>
-      </div>
-  </body>
+    </div>
+</body>
+
 </html>
