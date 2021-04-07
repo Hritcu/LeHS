@@ -1,14 +1,62 @@
+:root{
+    --darkest: rgb(54, 47, 40);
+    --inbetween: rgb(94, 77, 61);
+    --lightest: rgb(236, 216, 178);
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+
+a:link {
+    color: rgb(236, 216, 178);;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(236, 216, 178);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(236, 216, 178);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(236, 216, 178);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 body, html {   
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     display:table;
-    background-color:#DADED4;
-    
+    background-color:var(--darkest);
+    color: var(--darkest);
 }
 #top, #bottom, #left, #right {
-	background: white;
+	background: var(--lightest);
 	position: fixed;
 	}
 	#left, #right {
@@ -26,16 +74,16 @@ body, html {
 		#bottom { bottom: 0; }
 
 body{
-    background: linear-gradient(white, white) no-repeat center/10px 100%;
+    background: linear-gradient(var(--lightest), var(--lightest)) no-repeat center/10px 100%;
 }
 .title{
-    color: #3C403D;
+    color: var(--lightest);
     margin-top : 25px;
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: auto;
     padding: 5px;
-    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    font-family: "Lato", Arial, sans-serif;
 
 }
 
@@ -46,54 +94,67 @@ a {
 }
 
 a:hover {
-  background-color: #ddd;
+  background-color: var(--inbetween);
   color: black;
 }
 
 .previous {
   margin-left: 25px;
-  background-color: #f1f1f1;
+  background-color: var(--inbetween);
   color: black;
 }
 .next {
-    background-color: #f1f1f1;
+    background-color: var(--inbetween);
     color: black;
   }
 .level-indicator{
-    color: #3C403D;
-    background-color: #f1f1f1;
+    color: var(--lightest);
+    background-color: var(--inbetween);
     display: inline-block;
     padding: 6px 10px;
 }
 #instructions{
-    color: #3C403D;
-    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    color: var(--lightest);
+    font-family: "Lato", Arial, sans-serif;
     margin-left: 25px;
     margin-right: auto;
 }
 #editor{
     margin-left: 25px;
+    color: var(--lightest);
+}
+#next{
+    background-color: var(--inbetween);
 }
 #labelDifficulty{
     margin-left: 25px;
-    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    color: var(--lightest);
+    font-family: "Lato", Arial, sans-serif;
 }
 #difficulty{
     margin-left: 25px;
-    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
+    color: var(--lightest);
+    font-family: "Lato", Arial, sans-serif;
 }
-#share{
-    margin-left: 60px;
+.share{
+    color: var(--lightest);
+    margin-left: 200px;
     display: inline-block;
+}
+.Home{
+    background-color: var(--inbetween);
 }
 #learnHTML
 {
-    font-family: "Brush Script MT","Lucida Handwriting","Copperplate";
-    margin-left: 40px;
+    color: var(--lightest);
+    font-family: "Lato", Arial, sans-serif;
 }
 #learnhtml
     {
+    color: var(--lightest);
     display: flex;
     align-items:flex-end;
+    justify-content:center;
+
     }
-}
+
