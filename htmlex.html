@@ -1,35 +1,53 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <title>Learn HTML</title>
+    <meta charset="utf-8" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="Learn CSS">
     <meta property="og:description" content="A game for learning CSS">
-    <link rel="stylesheet" href="./LHTML.css">
+    <link rel="stylesheet" href="./htmlex.css">
 </head>
 
 <body>
-    <div id="left"></div>
-    <div id="right"></div>
+
+    <header>
+        <button id="menuBtn" type="button" class="btn btn-5"> Menu </button>
+    </header>
+
 
     <div class="split left">
         <div class="centered">
-            <section id="sidebar">
-                <div class="header">
-                    <div>
-                        <h1 class="title">Learn HTML</h1>
+
+            <nav id="navPanel">
+                <ol>
+                    <li id="home">
+                        <a class="btn btn-5" href="./ChooseHTML_or_CSS.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-5">Settings</a>
+                    </li>
+                </ol>
+                <button type="button" class="btn btn-5"> Log out </button>
+            </nav>
+            <script src="./htmlex.js"></script>
+            <div class="header">
+                <div>
+                    <h1 class="title">Learn HTML</h1>
+                </div>
+                <div class="level counter">
+                    <div class="previous">
+                        <a href="#" id="previous" class="btn btn-5">&laquo;</a>
                     </div>
-                    <div id="level-counter">
-                        <class="previous">
-                            <a href="#" id="previous" class="btn btn-5">&laquo;</a>
-                            <div class="level-indicator">Level 1 of 2</div>
-                            <class="next">
-                                <a href="#" id="nextlevel" class="btn btn-5"> &raquo;</a>
+                    <div class="level-indicator">Level 1 of 2</div>
+                    <div class="next">
+                        <a href="#" id="nextlevel" class="btn btn-5"> &raquo;</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- <p id="instructions">Bine ai venit la Learn CSS, un joc unde scrii cod CSS!....descriere joc</p>
+            <!-- <p id="instructions">Bine ai venit la Learn CSS, un joc unde scrii cod CSS!....descriere joc</p>
                 <div id="editor">
                     <div id="css">
                         <pre id="before"></pre>
@@ -38,22 +56,19 @@
                     </div>
                     <button id="next" class="btn btn-5">Next</button>   
                 </div> -->
-                <p>Completati codul de mai jos:</p>
-                <p>
-                    <div class="editor">
-                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body
-                        <span class="tagcolor" style="color:mediumblue">&gt;</span>
-                        <br><span><textarea id="code" autofocus="" autocapitalize="none" style="height: 24px;"></textarea></span>
-                        <span class="tagnamecolor" style="color:brown"></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html
-                        <span class="tagcolor" style="color:mediumblue">&gt;</span>
-                        </span>
-                    </div>
-                </p>
-                </p>
-                <div>
-                    <button id="next" class="btn btn-5">Next level</button>
-                </div>
+            <p>Completati codul de mai jos:</p>
+            <div class="editor">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                <br><span><textarea id="code" autofocus="" autocapitalize="none" style="height: 24px;"></textarea></span>
+                <span class="tagnamecolor" style="color:brown"></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span></span>/html
+                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                </span>
+            </div>
+            <div>
+                <button id="next" class="btn btn-5">Next level</button>
+            </div>
         </div>
         <!-- <section>
             <h4 id="labelDifficulty">Difficulty</h4>
@@ -88,7 +103,6 @@
             </div>
         </footer>
     </div>
-    </div>
 
     <div class="split right">
         <div class="centered">
@@ -98,7 +112,7 @@
                     <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="tagnamecolor" style="color:brown"> </span>si
                     sa se termine cu
                     <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"></span>
-                    <ul>!Tips: atunci cand deschidem un tab trebuie sa il si inchidem cu /nume_tab in paranteze ascutite. </ul>
+                    <p>!Tips: atunci cand deschidem un tab trebuie sa il si inchidem cu /nume_tab in paranteze ascutite. </p>
                     <div class="w3-example">
                         <h3>Exemplu:</h3>
                         <div class="exemplu">
@@ -118,8 +132,6 @@
                         </div>
 
                     </div>
-
-                </p>
             </section>
         </div>
     </div>
