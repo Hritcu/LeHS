@@ -1,6 +1,6 @@
 
-:root{
-    --darkest: rgb(54, 47, 40);
+:root {
+    --darkest: rgb(54,47,40);
     --inbetweenDarkestAndMiddle: rgb(77, 63, 60);
     --middle: rgb(124, 110, 96);
     --inbetweenMiddleAndLightest : rgb(197, 152, 132);
@@ -53,7 +53,7 @@ body {
     position: relative;
     width: 25em;
     height: 35vh;
-    padding: 2px;
+    padding: 2vh;
     border: 0 solid var(--darkest);
     box-shadow: inset 0 0 20px var(--darkest);
     outline: 1px solid;
@@ -70,5 +70,32 @@ body {
     outline-color: var(--inbetweenDarkestAndMiddle);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px var(--darkest);
+}
 
+@media screen and (max-width: 800px) {
+    
+    #title{
+        padding-top: 5vh;
+        padding-bottom: 4vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        font-size: 4vh;
+    }
+
+    .Buttons {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin : auto;
+        width: 100%;
+    }
+
+    #LearnHTML, #LearnCSS{
+    position: relative;
+    width: 80vw;
+    height: 30vh;
+    padding: 2vh;
+    margin: 1vh;
+    }
 }
