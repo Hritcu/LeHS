@@ -134,10 +134,12 @@ a:hover {
     margin-left: 25px;
     background-color: var(--inbetween);
     color: black;
+    display: inline-block;
 }
 
 #nextlevel {
     background-color: var(--inbetween);
+    display: inline-block;
     color: black;
 }
 
