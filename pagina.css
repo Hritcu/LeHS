@@ -26,8 +26,14 @@
 
 .right {
     right: 0;
+    display:flex;
+    justify-content: space-between;
 }
-
+#test{
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+}
 
 /* If you want the content centered horizontally and vertically */
 
@@ -230,8 +236,53 @@ a:hover {
     max-width: 60px;
     color: black;
 }
-
 .Home {
     background-color: var(--inbetween);
     max-width: 60px;
+}
+#Caine_Rosu{
+    width: 150px;
+        height: 150px;
+}
+#Casa_Caine_Rosu{
+    width: 150px;
+     height: 150px;
+    display: flex;
+    justify-content:center;
+
+}
+@media screen and (max-width: 800px) {
+    .split {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    
+    
+    /* Control the left side */
+    
+    .left {
+        left: 0;
+        width: 100%;
+    }
+    
+    
+    /* Control the right side */
+    
+    .right {
+        width: 0;
+        height: 0;
+    }
+    body {
+        background: linear-gradient(var(--lightest), var(--lightest)) no-repeat center/0px 100%;
+    }
+    .share {
+        color: var(--lightest);
+        margin-left: 50px;
+        display: inline-block;
+    }
+    
 }
