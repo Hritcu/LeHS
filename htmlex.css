@@ -66,7 +66,7 @@ html {
     height: 100%;
     margin: 0;
     padding-top: 0;
-    display: table;
+    display: block;
     background-color: var(--darkest);
     color: var(--darkest);
     border-radius: 8px;
@@ -141,6 +141,11 @@ a:hover {
     width: 25px;
     height: 25px;
     margin-top: 0%;
+    color: black;
+}
+
+#previous.btn.btn-5 {
+    background-color: var(--inbetween);
     color: black;
 }
 
@@ -392,4 +397,17 @@ nav a.btn.btn-5 {
 .level.counter {
     display: flex;
     flex-direction: row;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .split.right {
+        display: none;
+    }
+    .split.left {
+        width: 100%;
+    }
+    /* .split.left {
+        background-color: aqua;
+    } */
 }
