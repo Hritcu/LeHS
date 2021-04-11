@@ -30,7 +30,6 @@
     justify-content: space-between;
 }
 #test{
-    right: 0;
     display:flex;
     justify-content: space-between;
 }
@@ -163,6 +162,26 @@ a:hover {
     margin-right: auto;
 }
 
+    display: block;
+    background-color: var(--inbetween);
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 14px;
+    max-width: 20em;
+}
+#code{
+    background-color : var(--lightest);
+    color: var(--darkest);
+    border: none;
+    outline: none;
+    height: min-content;
+
+}
+#pre{
+    display: block;
+    left: 0;
+    margin: 0;
+}
+
 #editor {
     margin-left: 25px;
     color: var(--lightest);
@@ -269,6 +288,11 @@ a:hover {
         width: 100%;
     }
     
+    #css, #pre, #code{
+        font-size: 0px;
+        width: 0;
+        height: 0;
+    }
     
     /* Control the right side */
     
