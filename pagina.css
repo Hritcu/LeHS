@@ -162,12 +162,14 @@ a:hover {
     margin-right: auto;
 }
 
+#css, #code{
     display: block;
     background-color: var(--inbetween);
     font-family: "Lato", Arial, sans-serif;
     font-size: 14px;
     max-width: 20em;
 }
+
 #code{
     background-color : var(--lightest);
     color: var(--darkest);
