@@ -26,13 +26,15 @@
 
 .right {
     right: 0;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
-#test{
-    display:flex;
+
+#test {
+    display: flex;
     justify-content: space-between;
 }
+
 
 /* If you want the content centered horizontally and vertically */
 
@@ -162,7 +164,8 @@ a:hover {
     margin-right: auto;
 }
 
-#css, #code{
+#css,
+#code {
     display: block;
     background-color: var(--inbetween);
     font-family: "Lato", Arial, sans-serif;
@@ -170,15 +173,15 @@ a:hover {
     max-width: 20em;
 }
 
-#code{
-    background-color : var(--lightest);
+#code {
+    background-color: var(--lightest);
     color: var(--darkest);
     border: none;
     outline: none;
     height: min-content;
-
 }
-#pre{
+
+#pre {
     display: block;
     left: 0;
     margin: 0;
@@ -257,21 +260,24 @@ a:hover {
     max-width: 60px;
     color: black;
 }
+
 .Home {
     background-color: var(--inbetween);
     max-width: 60px;
 }
-#Caine_Rosu{
-    width: 150px;
-        height: 150px;
-}
-#Casa_Caine_Rosu{
-    width: 150px;
-     height: 150px;
-    display: flex;
-    justify-content:center;
 
+#Caine_Rosu {
+    width: 150px;
+    height: 150px;
 }
+
+#Casa_Caine_Rosu {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
     .split {
         height: 100%;
@@ -281,23 +287,19 @@ a:hover {
         overflow-x: hidden;
         padding-top: 20px;
     }
-    
-    
     /* Control the left side */
-    
     .left {
         left: 0;
         width: 100%;
     }
-    
-    #css, #pre, #code{
+    #css,
+    #pre,
+    #code {
         font-size: 0px;
         width: 0;
         height: 0;
     }
-    
     /* Control the right side */
-    
     .right {
         width: 0;
         height: 0;
@@ -310,5 +312,4 @@ a:hover {
         margin-left: 50px;
         display: inline-block;
     }
-    
 }
