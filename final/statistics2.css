@@ -416,3 +416,7 @@ nav a.btn.btn-5 {
 #home a.btn.btn-5 {
     padding-right: 50px;
 }
+
+#navPanel {
+    z-index: 2;
+}
