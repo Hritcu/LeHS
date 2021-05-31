@@ -367,3 +367,52 @@ html {
         font-size: small;
     }
 }
+
+nav {
+    padding: 1em;
+    color: #fff;
+    width: 10em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 99%;
+    background: var(--black);
+    transform: translateX(-100%);
+    transition: transform 1s cubic-bezier(0, 1.01, 0.58, 1);
+}
+
+nav.is--open {
+    transform: translateX(0);
+}
+
+nav li {
+    margin: 1em 0;
+}
+
+nav a {
+    color: inherit;
+}
+
+button.btn.btn-5 {
+    background-color: var(--lightest);
+    max-width: 100px;
+    margin-bottom: 0%;
+    color: var(--black);
+}
+
+#menuBtn.btn.btn-5 {
+    background-color: var(--inbetween);
+    padding-right: 27px;
+    padding-left: 27px;
+    margin-bottom: 0%;
+}
+
+nav a.btn.btn-5 {
+    background-color: var(--inbetween);
+    padding-right: 80px;
+    color: var(--lightest);
+}
+
+#home a.btn.btn-5 {
+    padding-right: 50px;
+}
