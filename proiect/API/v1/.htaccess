@@ -1,0 +1,6 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^exercitii/html/?$ exercitiiHtml.php [NC,L]
+RewriteRule ^exercitii/html/([0-9]+)/?$ exercitiiHtml.php?id=$1 [NC,L]
+RewriteRule ^exercitii/css/?$ exercitiiCss.php [NC,L]
+RewriteRule ^exercitii/css/([0-9]+)/?$ exercitiiCss.php?id=$1 [NC,L]
+RewriteRule ^exercitii/level Level.php [NC,L]

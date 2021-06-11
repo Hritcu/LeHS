@@ -1,0 +1,302 @@
+[
+    {
+        "id": "1",
+        "cerinta": "Ajuta-l pe Rex sa ajunga acasa folosing proprietatea CSS <strong style='font-size:15px'> justify-content </strong>.  Aceasta aliniaza toate elementele orizontal si poate lua mai multe valori : <br> <br> <strong style='font-size:15px'> flex-start (default) </strong> - plaseaza toate elementele pe partea stanga ;  <br> <br> <strong style='font-size:15px'> flex-end </strong> - plaseaza toate elementele pe partea dreapta ;  <br> <br> <strong style='font-size:15px'> center </strong> - plaseaza toate elementele in centrul paginii .",
+        "raspuns": "justify-content: flex-end;",
+        "background_style": "justify-content: flex-end",
+        "blue_dog_style": "display:none",
+        "yellow_dog_style": "display:none",
+        "blue_dog_house_style": "display:none",
+        "yellow_dog_house_style": "display:none",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "flex-end",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": ""
+    },
+    {
+        "id": "2",
+        "cerinta": "Ajuta-l pe Rex sa ajunga acasa folosind din nou proprietatea CSS <strong style='font-size:15px'> justify-content </strong> cu valoarea corespunzatoare din cele prezentate anterior.",
+        "raspuns": "justify-content: center;",
+        "background_style": "justify-content: center",
+        "blue_dog_style": "display:none",
+        "yellow_dog_style": "display:none",
+        "blue_dog_house_style": "display:none",
+        "yellow_dog_house_style": "display:none",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "center",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "3",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind din nou proprietatea CSS <strong style='font-size:15px'> justify-content </strong>, dar cu noi valori de aceasta data. <br> <br> <strong style='font-size:15px'> space-between </strong> - toate elementele au spatiu egal intre ele ;  <br> <br> <strong style='font-size:15px'> space-around </strong> - toate elementele au spatiu egal in jurul lor ; ",
+        "raspuns": "justify-content: space-between;",
+        "background_style": "justify-content: space-between",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "space-between",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "4",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind din nou proprietatea CSS <strong style='font-size:15px'> justify-content </strong> cu valoarea corespunzatoare din cele prezentate anterior.",
+        "raspuns": "justify-content: space-around;",
+        "background_style": "justify-content: space-around",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "space-around",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "5",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o alta proprietate CSS <strong style='font-size:15px'> flex-direction </strong> care poate schimba directia in care elementele sunt plasate. <br> <br> <strong style='font-size:15px'> row (default) </strong> - elementele sunt plasate pe un rand in ordinea definita ; <br> <br> <strong style='font-size:15px'> row-reverse </strong> - elementele sunt plasate pe un rand in ordinea INVERS definita ; <br> <br> <strong style='font-size:15px'> column </strong> - elementele sunt plasate pe o coloana in ordinea definita ( de sus in jos ) ;<br> <br> <strong style='font-size:15px'> column-reverse </strong> - elementele sunt plasate pe o coloana in ordinea INVERS definita ( de jos in sus ) ;",
+        "raspuns": "flex-direction: row-reverse;",
+        "background_style": "flex-direction: row-reverse",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "row-reverse",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "6",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind proprietatea CSS <strong style='font-size:15px'> flex-direction </strong> schimband directia in care elementele sunt plasate.",    
+        "raspuns": "flex-direction: column;",
+        "background_style": "flex-direction: column",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "column",
+        "align_items_property_shelter": ""
+    },
+    {
+        "id": "7",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o alta proprietate CSS <strong style='font-size:15px'> align-items </strong> foarte asemanatoare cu <strong style='font-size:15px'> justify-content </strong>. Aceasta plaseaza elementele in pagina vertical si poate lua urmatoarele valori : <br> <br> <strong style='font-size:15px'> flex-start (default) </strong> -plaseaza elementele in partea de sus a containerului ; <br> <br> <strong style='font-size:15px'> flex-end </strong> - plaseaza elementele in partea de jos a containerului;  <br> <br> <strong style='font-size:15px'> center </strong> - plaseaza elementele in mijlocul containerului ;<br> <br> <strong style='font-size:15px'> baseline </strong> - plaseaza elementele pe linia de baza containerului ;<br> <br> <strong style='font-size:15px'> stretch </strong> - toate elementele sunt intinse pentru a se potrivi in container ",    
+        "raspuns": "align-items: flex-end;",
+        "background_style": "align-items: flex-end",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": "flex-end"
+    },
+
+    {
+        "id": "8",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind proprietatea CSS <strong style='font-size:15px'> align-items </strong> .",    
+        "raspuns": "align-items: center;",
+        "background_style": "align-items: center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "beginner",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": "center"
+    },
+
+    {
+        "id": "9",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> justify-content </strong> si <strong style='font-size:15px'> align-items </strong> (in aceasta ordine) .  ",    
+        "raspuns": "justify-content: flex-end;\nalign-items: center;",
+        "background_style": "justify-content:flex-end; align-items: center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "flex-end",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": "center"
+    },
+
+    
+    {
+        "id": "10",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> justify-content </strong> si <strong style='font-size:15px'> align-items </strong> (in aceasta ordine). ",    
+        "raspuns": "justify-content: space-around;\nalign-items: flex-end;",
+        "background_style": "justify-content:space-around; align-items: flex-end",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "space-around",
+        "flex_direction_property_shelter": "",
+        "align_items_property_shelter": "flex-end"
+    },
+
+    {
+        "id": "11",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> justify-content </strong> si <strong style='font-size:15px'> flex-direction </strong> (in aceasta ordine). ",    
+        "raspuns": "justify-content: center;\nflex-direction: column-reverse;",
+        "background_style": "justify-content:center; flex-direction: column-reverse",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "center",
+        "flex_direction_property_shelter": "column-reverse",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "12",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> justify-content </strong> si <strong style='font-size:15px'> flex-direction </strong> (in aceasta ordine). ",    
+        "raspuns": "justify-content: space-between;\nflex-direction: column;",
+        "background_style": "justify-content:space-between; flex-direction: column",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "space-between",
+        "flex_direction_property_shelter": "column",
+        "align_items_property_shelter": ""
+    },
+
+    {
+        "id": "13",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> flex-direction </strong> si <strong style='font-size:15px'> align-items </strong> (in aceasta ordine). ",    
+        "raspuns": "flex-direction: row-reverse;\nalign-items: center;",
+        "background_style": "flex-direction: row-reverse; align-items: center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "row-reverse",
+        "align_items_property_shelter": "center"
+    },
+
+    {
+        "id": "14",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre proprietatile <strong style='font-size:15px'> flex-direction </strong> si <strong style='font-size:15px'> align-items </strong> (in aceasta ordine). ",    
+        "raspuns": "flex-direction: column-reverse;\nalign-items: flex-end;",
+        "background_style": "flex-direction: column-reverse; align-items: flex-end",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "intermediate",
+        "justify_content_property_shelter": "",
+        "flex_direction_property_shelter": "column-reverse",
+        "align_items_property_shelter": "flex-end"
+    },
+
+    {
+        "id": "15",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: space-between;\nflex-direction: column;\nalign-items: center;",
+        "background_style": "justify-content:space-between; flex-direction: column; align-items: center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "space-between",
+        "flex_direction_property_shelter": "column",
+        "align_items_property_shelter": "center"
+    },
+
+    {
+        "id": "16",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: flex-end;\nflex-direction: row-reverse;\nalign-items: flex-end;",
+        "background_style": "justify-content:flex-end; flex-direction: row-reverse; align-items: flex-end",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "flex-end",
+        "flex_direction_property_shelter": "row-reverse",
+        "align_items_property_shelter": "flex-end"
+    },
+
+    {
+        "id": "17",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: center;\nflex-direction: column-reverse;\nalign-items: center;",
+        "background_style": "justify-content:center; flex-direction: column-reverse; align-items: center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "center",
+        "flex_direction_property_shelter": "column-reverse",
+        "align_items_property_shelter": "center"
+    },
+
+    {
+        "id": "18",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: space-between;\nflex-direction: row;\nalign-items: flex-end;",
+        "background_style": "justify-content:space-between; flex-direction: row; align-items:flex-end;",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "space-between",
+        "flex_direction_property_shelter": "row",
+        "align_items_property_shelter": "flex-end"
+    },
+
+    {
+        "id": "19",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: space-around;\nflex-direction: row-reverse;\nalign-items: flex-start;",
+        "background_style": "justify-content:space-around; flex-direction: row-reverse;align-items:flex-start",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "space-around",
+        "flex_direction_property_shelter": "row-reverse",
+        "align_items_property_shelter": "flex-start"
+    },
+
+    {
+        "id": "20",
+        "cerinta": "Ajuta-l pe Rex si prietenii sai sa ajunga acasa folosind o combinatie dintre toate proprietatile invatate in ordinea <strong style='font-size:15px'> justify-content </strong>, <strong style='font-size:15px'> flex-direction </strong>, <strong style='font-size:15px'> align-items </strong>. ",    
+        "raspuns": "justify-content: flex-end;\nflex-direction: column-reverse;\nalign-items: center;",
+        "background_style": "justify-content:flex-end; flex-direction: column-reverse; align-items:center",
+        "blue_dog_style": "",
+        "yellow_dog_style": "",
+        "blue_dog_house_style": "",
+        "yellow_dog_house_style": "",
+        "dificultate": "expert",
+        "justify_content_property_shelter": "flex-end",
+        "flex_direction_property_shelter": "column-reverse",
+        "align_items_property_shelter": "center"
+    }
+
+
+]

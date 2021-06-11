@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "cerinta": "Completati codul de mai jos:",
+    "raspuns": "</body>",
+    "teorie": "Orice cod in HTML trebuie sa inceapa cu <span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>html<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span><span class=\"tagnamecolor\" style=\"color:brown\"> </span>si sa se termine cu <span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/html<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span><br><span class=\"tagnamecolor\" style=\"color:brown\"></span> <p>!Tips: atunci cand deschidem un tab trebuie sa il si inchidem cu /nume_tab in paranteze ascutite. </p>",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>h1<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span><h1>My First Heading</h1><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/h1<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span> </span><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>p <span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span> </span><p>My first paragraph</p>.<span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/p<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 2,
+    "cerinta": "Scrie un atribut astfel incat elementul de mai jos sa se duca la 'http://localhost:8082/home/htmlex'",
+    "raspuns": "href=",
+    "teorie": "Atributele! <br> Sunt foarte frecvent folosite atunci cand scriem cod in html. <br>Cu atribute putem sa redirectionam catre alta pagina atunci cand apasam pe un buton, sau sa punem un id prin care putem idetifica elementul respectiv. \n <br><br>Exemple: <br>href-pentru link-uri; <br>src-pentru imagini; <br>title; <br>etc.",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>p title=\"titlu\"></span>Un paragraf cu titlul 'titlu'<span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/h2<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 3,
+    "cerinta": "Utilizați eticheta HTML corectă pentru a adăuga un titlu cu textul 'Catelus cu parul cret'",
+    "raspuns": "<h1>Catelus cu parul cret</h1>",
+    "teorie": "Etichetele h1 la h6 sunt utilizate pentru a defini titluri HTML. <br>H1 definește cel mai important titlu. <br>H6 definește titlul cel mai puțin important. <br><br>Notă: utilizați doar un h1 pe pagină - aceasta ar trebui să reprezinte antetul / subiectul principal pentru întreaga pagină. De asemenea, nu săriți peste nivelurile de titlu - începeți cu h1, apoi utilizați h2 și așa mai departe.",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>h2></span><h2>Exemplu pentru h2</h2><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/h2<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 4,
+    "cerinta": "Utilizați eticheta HTML corectă pentru a adăuga un paragraf cu textul „Studiile au arătat că câinii pot învăța peste 100 de cuvinte și gesturi, ceea ce le pune inteligența și înțelegerea față de noi la egalitate cu un copil de doi ani. Cu toate acestea, câinii sunt mult mai ușor de dresat decât un copil de doi ani!”.",
+    "raspuns": "<p>",
+    "teorie": "Elementul HTML p definește un paragraf.<p> Un paragraf începe întotdeauna pe o nouă linie, iar browserele adaugă automat niște spațiu alb (o marjă) înainte și după un paragraf.",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>p></span>  <span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/p<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 5,
+    "cerinta": "Utilizați atributul HTML corect și CSS pentru a seta culoarea paragrafului la „red”.",
+    "raspuns": "color:blue;",
+    "teorie": "Atributul de stil HTML este utilizat pentru a adăuga stiluri unui element, cum ar fi: <br><br>-color (culoarea), <br>-font (fontul),<br> dimensiunea și multe altele.",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>h2 style=\"color:green;\"></span><div style=\"color:green;\">Acest text va avea culoarea verde</div><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/h2<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 6,
+    "cerinta": "Adauga numele Rex si formateaza textul ca sa fie bold.",
+    "raspuns": "<bold>Rex</bold>",
+    "teorie": "HTML conține mai multe elemente pentru definirea textului cu o semnificație specială.<br> Cele mai folosite sunt: <br> b - text bold <br>strong - text important <br>i - text Italic",
+    "exemplu": "</span><br><br><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>p></span><i>text italic</i><span class=\"tagnamecolor\" style=\"color:brown\"><span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&lt;</span>/p<span class=\"tagcolor\" style=\"color: rgb(64, 64, 151)\">&gt;</span></span>"
+},
+{
+    "id": 7,
+    "cerinta": "Adăugați etichete de comentariu în jurul paragrafului:",
+    "raspuns": "<!--",
+    "teorie": "Comentariile HTML nu sunt afișate în browser, dar vă pot ajuta să vă documentați codul sursă HTML.",
+    "exemplu": "< ! - - text ce poate fi comentariu- - ><br> sau //"
+}
+]
