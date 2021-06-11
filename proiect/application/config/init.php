@@ -40,7 +40,7 @@ function fetchData()
                     ]
         ];
 
-        //fetching user data
+      
         $url = "https://api.github.com/user?access_token=$access_token";
         $context = stream_context_create($opts);
         $data = file_get_contents($url, false, $context);
@@ -50,7 +50,6 @@ function fetchData()
         $username = $user_data['login'];
 
 
-        //fetching email data
         $url1 = "https://api.github.com/user/emails?access_token=$access_token";
         $emails = file_get_contents($url1, false, $context);
         $emails = json_decode($emails, true);
