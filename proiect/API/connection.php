@@ -1,7 +1,7 @@
 <?php
 
 Class dbObj{
-	/* Database connection start */
+	
 	var $servername = "127.0.0.1";
 	var $username = "utilizator";
 	var $password = "parola";
